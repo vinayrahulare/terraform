@@ -1,3 +1,7 @@
+provider "aws" {
+	region = "us-east-1"
+}
+
 #AWS Instance
 resource "aws_instance" "example" {
     ami = data.aws_ami.windows.id
