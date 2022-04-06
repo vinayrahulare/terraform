@@ -1,0 +1,1 @@
+This repo consists of sample terraform code to spin up an AWS EC2 instance
